@@ -1,51 +1,46 @@
-"""
-CareerNodes by Bihan Dasgupta
-June 2025
-
-WEBSITE URL: https://careernodes.streamlit.app/
-
-This is the main file for the CareerNodes website.
-"""
-
-"""
-
-NOTE: These are the files and command you will need to add if you want to run the app locally.
-
-requirements.txt:
-
-streamlit
-openai
-requests
-python-dotenv
-networkx
-pyvis
-PyPDF2
-cohere
-scikit-learn
-
-
-.env:
-
-ADZUNA_APP_ID=your_adzuna_app_id
-ADZUNA_APP_KEY=your_adzuna_app_key
-OPENAI_API_KEY=your_openai_api_key
-
-Please note that you will need to get your own API keys from Adzuna and OpenAI.
-
-
-You will also need to have the following dependencies installed:
-
-1) Streamlit installed
-2) OpenAI API key
-3) Adzuna API key
-4) PyPDF2 installed
-5) NetworkX installed
-6) PyVis installed
-
-
-To run: streamlit run app.py
-
-"""
+# CareerNodes by Bihan Dasgupta
+# June 2025
+#
+# WEBSITE URL: https://careernodes.streamlit.app/
+#
+# This is the main file for the CareerNodes website.
+#
+#
+# NOTE: These are the files and command you will need to add if you want to run the app locally.
+#
+# requirements.txt:
+#
+# streamlit
+# openai
+# requests
+# python-dotenv
+# networkx
+# pyvis
+# PyPDF2
+# cohere
+# scikit-learn
+#
+#
+# .env:
+#
+# ADZUNA_APP_ID=your_adzuna_app_id
+# ADZUNA_APP_KEY=your_adzuna_app_key
+# OPENAI_API_KEY=your_openai_api_key
+#
+# Please note that you will need to get your own API keys from Adzuna and OpenAI.
+#
+#
+# You will also need to have the following dependencies installed:
+#
+# 1) Streamlit installed
+# 2) OpenAI API key
+# 3) Adzuna API key
+# 4) PyPDF2 installed
+# 5) NetworkX installed
+# 6) PyVis installed
+#
+#
+# To run: streamlit run app.py
 
 import streamlit as st
 import requests
